@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Assignment 2-R Programming
+## This Project is used to cache and compute inverse matrix
 
-## Write a short comment describing this function
+## This function uses lexcial scopinng to create a list
 
 makeCacheMatrix <- function(x = matrix()) {
         inverse_mrx <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
                      getInverse = getInverse)
 }
 
-## Write a short comment describing this function
+## This function is used to check,compute and set Inverse Matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
